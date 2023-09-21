@@ -1,0 +1,82 @@
+.container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 10px;
+    .notFound {
+        text-align: center;
+    }
+    .gistBody {
+        border-bottom: 1px solid #e0e0e0;
+        padding: 15px 0 40px 0;
+
+        .gistHead {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .leftHead {
+                display: flex;
+                align-items: center;
+
+                span {
+                    width: 50px;
+                    height: 50px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .rightHead {
+                span {
+                    color: #1f92ea;
+                    padding: 0 10px;
+
+                    label {
+                        padding-left: 5px;
+                        a{
+                            text-decoration: none;
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+        }
+
+        .dateLable {
+            padding-top: 20px;
+            color: #656565;
+            font-size: 1em;
+            label {
+                padding-right: 10px;
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                font-size: 16px;
+            }
+
+            div {
+                span {
+                    color: #1f92ea;
+                    margin-right: 10px;
+                    label {
+                        padding-left: 5px;
+                        a {
+                            color: inherit;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
